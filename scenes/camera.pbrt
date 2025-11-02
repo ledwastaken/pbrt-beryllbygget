@@ -1,0 +1,14 @@
+Integrator "volpath"
+
+Sampler "zsobol"
+    "integer pixelsamples" [ 32 ]
+
+Film "rgb"
+    "string filename" [ "output.png" ]
+    "integer xresolution" [ 800 ]
+    "integer yresolution" [ 600 ]
+
+Scale -1 1 1
+LookAt 105 -105 15  0 0 25  0 0 1
+Camera "perspective"
+    "float fov" [ 45 ]

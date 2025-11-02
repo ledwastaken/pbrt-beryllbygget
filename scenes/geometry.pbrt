@@ -1,0 +1,33 @@
+# Include all material definitions
+Include "materials.pbrt"
+
+# Geometry instances
+AttributeBegin
+    NamedMaterial "EntranceWall"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/entrance_walls.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "ExteriorWall"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/exterior_walls.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "WindowGlass"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/window_surfaces.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "GlassPanel"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/glass_panels.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "WindowSeparator"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/window_separators.ply"]
+AttributeEnd

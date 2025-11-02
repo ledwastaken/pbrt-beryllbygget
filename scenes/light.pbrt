@@ -1,0 +1,6 @@
+AttributeBegin
+    Rotate 55 0 0 1
+    LightSource "infinite"
+        "float scale" 1
+        "string filename" ["assets/environments/sky.exr"]
+AttributeEnd

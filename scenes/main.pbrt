@@ -1,0 +1,6 @@
+Include "camera.pbrt"
+
+WorldBegin
+
+Include "light.pbrt"
+Include "geometry.pbrt"

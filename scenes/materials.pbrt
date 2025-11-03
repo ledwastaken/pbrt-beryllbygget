@@ -24,3 +24,11 @@ MakeNamedMaterial "GlassPanel"
 MakeNamedMaterial "WindowSeparator"
     "string type" ["diffuse"]
     "rgb reflectance" [0.7 0.2 0.2]
+
+MakeNamedMaterial "VentilationFrame"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.3 0.3 0.3]
+
+MakeNamedMaterial "VentilationFlap"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.1 0.1 0.1]

@@ -31,3 +31,15 @@ AttributeBegin
     Shape "plymesh"
         "string filename" ["assets/geometry/window_separators.ply"]
 AttributeEnd
+
+AttributeBegin
+    NamedMaterial "VentilationFlap"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/ventilation_flap.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "VentilationFrame"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/ventilation_frame.ply"]
+AttributeEnd

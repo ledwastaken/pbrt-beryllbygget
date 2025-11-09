@@ -27,6 +27,12 @@ AttributeBegin
 AttributeEnd
 
 AttributeBegin
+    NamedMaterial "RooftopFrame"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/rooftop_frame.ply"]
+AttributeEnd
+
+AttributeBegin
     NamedMaterial "WindowSeparator"
     Shape "plymesh"
         "string filename" ["assets/geometry/window_separators.ply"]

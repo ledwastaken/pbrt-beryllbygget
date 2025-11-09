@@ -24,6 +24,10 @@ MakeNamedMaterial "GlassPanel"
     "string type" ["diffuse"]
     "texture reflectance" "glass_panel"
 
+MakeNamedMaterial "RooftopFrame"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.2 0.2 0.2]
+
 MakeNamedMaterial "WindowSeparator"
     "string type" ["diffuse"]
     "rgb reflectance" [0.7 0.2 0.2]

@@ -2,6 +2,9 @@
 Texture "wall_normal" "float" "imagemap"
     "string filename" ["assets/textures/exterior_walls_normal.png"]
 
+Texture "glass_panel" "spectrum" "imagemap"
+    "string filename" ["assets/textures/glass_panel.png"]
+
 # Materials
 MakeNamedMaterial "EntranceWall"
     "string type" ["diffuse"]
@@ -19,7 +22,7 @@ MakeNamedMaterial "WindowGlass"
 
 MakeNamedMaterial "GlassPanel"
     "string type" ["diffuse"]
-    "rgb reflectance" [0.7 0.7 0.7]
+    "texture reflectance" "glass_panel"
 
 MakeNamedMaterial "WindowSeparator"
     "string type" ["diffuse"]

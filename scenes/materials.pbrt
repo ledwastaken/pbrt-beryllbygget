@@ -39,3 +39,7 @@ MakeNamedMaterial "VentilationFrame"
 MakeNamedMaterial "VentilationFlap"
     "string type" ["diffuse"]
     "rgb reflectance" [0.1 0.1 0.1]
+
+MakeNamedMaterial "WindowFrame"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.6 0.6 0.6]

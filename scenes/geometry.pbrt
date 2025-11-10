@@ -49,3 +49,9 @@ AttributeBegin
     Shape "plymesh"
         "string filename" ["assets/geometry/ventilation_frame.ply"]
 AttributeEnd
+
+AttributeBegin
+    NamedMaterial "WindowFrame"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/window_frames.ply"]
+AttributeEnd

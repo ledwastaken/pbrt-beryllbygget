@@ -3,6 +3,18 @@ Include "materials.pbrt"
 
 # Geometry instances
 AttributeBegin
+    NamedMaterial "Black"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/black_part_logo.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "Blue"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/blue_part_logo.ply"]
+AttributeEnd
+
+AttributeBegin
     NamedMaterial "EntranceWall"
     Shape "plymesh"
         "string filename" ["assets/geometry/entrance_walls.ply"]
@@ -24,6 +36,18 @@ AttributeBegin
     NamedMaterial "GlassPanel"
     Shape "plymesh"
         "string filename" ["assets/geometry/glass_panels.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "LogoPanel"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/logo_panel.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "MetalBars"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/metal_bars.ply"]
 AttributeEnd
 
 AttributeBegin

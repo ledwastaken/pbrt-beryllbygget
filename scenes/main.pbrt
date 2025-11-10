@@ -1,8 +1,9 @@
 Integrator "volpath"
 
-# Use "halton" for higher sampling rates
+# Use "halton" for high sampling rate
+# Use "zsobol" for low sampling rate
 Sampler "zsobol"
-    "integer pixelsamples" [ 32 ]
+    "integer pixelsamples" [ 256 ]
 
 Film "rgb"
     "string filename" [ "output.png" ]
@@ -10,7 +11,7 @@ Film "rgb"
     "integer yresolution" [ 600 ]
 
 Scale -1 1 1
-LookAt 105 -105 15  0 0 25  0 0 1
+LookAt -42 -90 40  0 0 25  0 0 1
 Camera "perspective"
     "float fov" [ 45 ]
 

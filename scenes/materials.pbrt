@@ -6,6 +6,14 @@ Texture "glass_panel" "spectrum" "imagemap"
     "string filename" ["assets/textures/glass_panel.png"]
 
 # Materials
+MakeNamedMaterial "Black"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.1 0.1 0.1]
+
+MakeNamedMaterial "Blue"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.1 0.2 0.5]
+
 MakeNamedMaterial "EntranceWall"
     "string type" ["diffuse"]
     "rgb reflectance" [0.65 0.25 0.25]
@@ -23,6 +31,14 @@ MakeNamedMaterial "WindowGlass"
 MakeNamedMaterial "GlassPanel"
     "string type" ["diffuse"]
     "texture reflectance" "glass_panel"
+
+MakeNamedMaterial "LogoPanel"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.6 0.6 0.6]
+
+MakeNamedMaterial "MetalBars"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.05 0.05 0.05]
 
 MakeNamedMaterial "RooftopFrame"
     "string type" ["diffuse"]

@@ -14,6 +14,14 @@ MakeNamedMaterial "Blue"
     "string type" ["diffuse"]
     "rgb reflectance" [0.1 0.2 0.5]
 
+MakeNamedMaterial "Concrete"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.4 0.4 0.4]
+
+MakeNamedMaterial "EntranceWindowFrame"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.8 0.8 0.6]
+
 MakeNamedMaterial "EntranceWall"
     "string type" ["diffuse"]
     "rgb reflectance" [0.65 0.25 0.25]

@@ -5,6 +5,12 @@ Include "materials.pbrt"
 AttributeBegin
     NamedMaterial "Black"
     Shape "plymesh"
+        "string filename" ["assets/geometry/black_metalic_door_frame.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "Black"
+    Shape "plymesh"
         "string filename" ["assets/geometry/black_part_logo.ply"]
 AttributeEnd
 
@@ -12,6 +18,18 @@ AttributeBegin
     NamedMaterial "Blue"
     Shape "plymesh"
         "string filename" ["assets/geometry/blue_part_logo.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "Concrete"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/concrete_slab.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "EntranceWindowFrame"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/entrance_window_frames.ply"]
 AttributeEnd
 
 AttributeBegin

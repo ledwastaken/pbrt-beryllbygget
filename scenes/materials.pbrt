@@ -6,6 +6,14 @@ Texture "glass_panel" "spectrum" "imagemap"
     "string filename" ["assets/textures/glass_panel.png"]
 
 # Materials
+MakeNamedMaterial "BasementDoor"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.32 0.32 0.38]
+
+MakeNamedMaterial "BasementWall"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.4 0.4 0.4]
+
 MakeNamedMaterial "Black"
     "string type" ["diffuse"]
     "rgb reflectance" [0.1 0.1 0.1]
@@ -25,6 +33,18 @@ MakeNamedMaterial "EntranceWindowFrame"
 MakeNamedMaterial "EntranceWall"
     "string type" ["diffuse"]
     "rgb reflectance" [0.65 0.25 0.25]
+
+MakeNamedMaterial "GarageDoorFrame"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.35 0.35 0.35]
+
+MakeNamedMaterial "GarageDoorWindows"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.45 0.45 0.45]
+
+MakeNamedMaterial "GarageDoor"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.5 0.5 0.5]
 
 MakeNamedMaterial "ExteriorWall"
     "string type" ["diffuse"]

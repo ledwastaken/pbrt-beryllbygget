@@ -3,6 +3,66 @@ Include "materials.pbrt"
 
 # Geometry instances
 AttributeBegin
+    NamedMaterial "WindowGlass"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/basement_door_windows1.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "WindowGlass"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/basement_door_windows2.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "WindowGlass"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/basement_door_windows3.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "WindowGlass"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/basement_door_windows4.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "BasementDoor"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/basement_door1.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "BasementDoor"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/basement_door2.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "BasementDoor"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/basement_door3.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "BasementDoor"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/basement_door4.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "BasementWall"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/basement_wall1.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "BasementWall"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/basement_wall2.ply"]
+AttributeEnd
+
+AttributeBegin
     NamedMaterial "Black"
     Shape "plymesh"
         "string filename" ["assets/geometry/black_metalic_door_frame.ply"]
@@ -36,6 +96,30 @@ AttributeBegin
     NamedMaterial "EntranceWall"
     Shape "plymesh"
         "string filename" ["assets/geometry/entrance_walls.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "GarageDoorFrame"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/garage_door_frame2.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "GarageDoorWindows"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/garage_door_windows1.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "GarageDoor"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/garage_door1.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "GarageDoor"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/garage_door2.ply"]
 AttributeEnd
 
 AttributeBegin

@@ -97,3 +97,9 @@ AttributeBegin
     Shape "plymesh"
         "string filename" ["assets/geometry/window_frames.ply"]
 AttributeEnd
+
+AttributeBegin
+    NamedMaterial "WindowSlab"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/window_slabs.ply"]
+AttributeEnd

@@ -3,7 +3,7 @@ import math
 
 # Get frame index from command line
 frame = int(sys.argv[1])
-total_frames = 30 * 10
+total_frames = 30 * 30
 radius = 150
 
 # Compute angle of rotation (full 360° over total frames)

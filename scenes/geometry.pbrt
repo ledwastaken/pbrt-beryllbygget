@@ -3,6 +3,30 @@ Include "materials.pbrt"
 
 # Geometry instances
 AttributeBegin
+    NamedMaterial "AirconditionerCircle"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/airconditioner_circle.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "AirconditionerFrame"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/airconditioner_frame.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "AirconditionerInner"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/airconditioner_inner.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "Airconditioner"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/airconditioner.ply"]
+AttributeEnd
+
+AttributeBegin
     NamedMaterial "WindowGlass"
     Shape "plymesh"
         "string filename" ["assets/geometry/basement_door_windows1.ply"]

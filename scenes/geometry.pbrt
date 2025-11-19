@@ -53,13 +53,13 @@ AttributeEnd
 AttributeBegin
     NamedMaterial "BasementWall"
     Shape "plymesh"
-        "string filename" ["assets/geometry/basement_wall1.ply"]
+        "string filename" ["assets/geometry/basement_wall.ply"]
 AttributeEnd
 
 AttributeBegin
-    NamedMaterial "BasementWall"
+    NamedMaterial "BasementWindow"
     Shape "plymesh"
-        "string filename" ["assets/geometry/basement_wall2.ply"]
+        "string filename" ["assets/geometry/basement_windows.ply"]
 AttributeEnd
 
 AttributeBegin

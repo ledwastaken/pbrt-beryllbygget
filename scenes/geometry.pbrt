@@ -111,6 +111,18 @@ AttributeBegin
 AttributeEnd
 
 AttributeBegin
+    NamedMaterial "CurtainsBars"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/curtains_bars.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "Curtains"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/curtains.ply"]
+AttributeEnd
+
+AttributeBegin
     NamedMaterial "EntranceWindowFrame"
     Shape "plymesh"
         "string filename" ["assets/geometry/entrance_window_frames.ply"]

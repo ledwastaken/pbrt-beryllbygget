@@ -49,6 +49,14 @@ MakeNamedMaterial "Concrete"
     "string type" ["diffuse"]
     "rgb reflectance" [0.4 0.4 0.4]
 
+MakeNamedMaterial "CurtainsBars"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.24 0.24 0.24]
+
+MakeNamedMaterial "Curtains"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.35 0.35 0.35]
+
 MakeNamedMaterial "EntranceWindowFrame"
     "string type" ["diffuse"]
     "rgb reflectance" [0.8 0.8 0.6]

@@ -45,6 +45,10 @@ MakeNamedMaterial "Blue"
     "string type" ["diffuse"]
     "rgb reflectance" [0.1 0.2 0.5]
 
+MakeNamedMaterial "Chimney"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.23 0.23 0.23]
+
 MakeNamedMaterial "Concrete"
     "string type" ["diffuse"]
     "rgb reflectance" [0.4 0.4 0.4]

@@ -105,6 +105,12 @@ AttributeBegin
 AttributeEnd
 
 AttributeBegin
+    NamedMaterial "Chimney"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/chimney.ply"]
+AttributeEnd
+
+AttributeBegin
     NamedMaterial "Concrete"
     Shape "plymesh"
         "string filename" ["assets/geometry/concrete_slab.ply"]

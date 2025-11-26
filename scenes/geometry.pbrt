@@ -3,6 +3,12 @@ Include "materials.pbrt"
 
 # Geometry instances
 AttributeBegin
+    NamedMaterial "AirconditionerBackground"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/airconditioner_background.ply"]
+AttributeEnd
+
+AttributeBegin
     NamedMaterial "AirconditionerCircle"
     Shape "plymesh"
         "string filename" ["assets/geometry/airconditioner_circle.ply"]

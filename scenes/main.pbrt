@@ -12,7 +12,7 @@ Film "rgb"
 
 Scale -1 1 1
 
-LookAt 105 -105 30  0 0 30  0 0 1
+LookAt 105 -105 10  0 0 25  0 0 1
 
 Camera "perspective"
     "float fov" [ 45 ]

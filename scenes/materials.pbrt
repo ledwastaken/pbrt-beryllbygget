@@ -9,6 +9,10 @@ Texture "basement_wall" "spectrum" "imagemap"
     "string filename" ["assets/textures/basement_wall2.jpg"]
 
 # Materials
+MakeNamedMaterial "AirconditionerBackground"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.2 0.2 0.2]
+
 MakeNamedMaterial "AirconditionerCircle"
     "string type" ["diffuse"]
     "rgb reflectance" [0.5 0.5 0.5]
@@ -75,7 +79,7 @@ MakeNamedMaterial "GarageDoorFrame"
 
 MakeNamedMaterial "GarageDoorWindows"
     "string type" ["diffuse"]
-    "rgb reflectance" [0.45 0.45 0.45]
+    "rgb reflectance" [0.25 0.20 0.14]
 
 MakeNamedMaterial "GarageDoor"
     "string type" ["diffuse"]

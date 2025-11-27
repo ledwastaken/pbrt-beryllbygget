@@ -195,6 +195,12 @@ AttributeBegin
 AttributeEnd
 
 AttributeBegin
+    NamedMaterial "Ground"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/ground.ply"]
+AttributeEnd
+
+AttributeBegin
     NamedMaterial "LogoPanel"
     Shape "plymesh"
         "string filename" ["assets/geometry/logo_panel.ply"]

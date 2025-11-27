@@ -11,6 +11,9 @@ Texture "basement_wall" "spectrum" "imagemap"
 Texture "grass_color" "spectrum" "imagemap"
     "string filename" ["assets/textures/grass_color.jpg"]
 
+Texture "ground_color" "spectrum" "imagemap"
+    "string filename" ["assets/textures/ground_color.jpg"]
+
 Texture "grass_normal" "float" "imagemap"
     "string filename" ["assets/textures/grass_normal.png"]
 
@@ -109,6 +112,10 @@ MakeNamedMaterial "Grass"
     "string type" ["diffuse"]
     "texture reflectance" "grass_color"
     "texture displacement" "grass_normal"
+
+MakeNamedMaterial "Ground"
+    "string type" ["diffuse"]
+    "texture reflectance" "ground_color"
 
 MakeNamedMaterial "LogoPanel"
     "string type" ["diffuse"]

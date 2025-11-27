@@ -27,6 +27,18 @@ AttributeBegin
 AttributeEnd
 
 AttributeBegin
+    NamedMaterial "Red"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/b_logo_frame.ply"]
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "White"
+    Shape "plymesh"
+        "string filename" ["assets/geometry/b_logo.ply"]
+AttributeEnd
+
+AttributeBegin
     NamedMaterial "Airconditioner"
     Shape "plymesh"
         "string filename" ["assets/geometry/airconditioner.ply"]

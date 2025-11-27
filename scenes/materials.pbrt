@@ -34,6 +34,14 @@ MakeNamedMaterial "AirconditionerInner"
     "string type" ["diffuse"]
     "rgb reflectance" [0.1 0.1 0.1]
 
+MakeNamedMaterial "White"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.74 0.74 0.74]
+
+MakeNamedMaterial "Red"
+    "string type" ["diffuse"]
+    "rgb reflectance" [0.7 0.2 0.2]
+
 MakeNamedMaterial "Airconditioner"
     "string type" ["diffuse"]
     "rgb reflectance" [0.8 0.8 0.8]

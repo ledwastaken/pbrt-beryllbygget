@@ -8,6 +8,12 @@ Texture "glass_panel" "spectrum" "imagemap"
 Texture "basement_wall" "spectrum" "imagemap"
     "string filename" ["assets/textures/basement_wall2.jpg"]
 
+Texture "grass_color" "spectrum" "imagemap"
+    "string filename" ["assets/textures/grass_color.jpg"]
+
+Texture "grass_normal" "float" "imagemap"
+    "string filename" ["assets/textures/grass_normal.png"]
+
 # Materials
 MakeNamedMaterial "AirconditionerBackground"
     "string type" ["diffuse"]
@@ -98,6 +104,11 @@ MakeNamedMaterial "WindowGlass"
 MakeNamedMaterial "GlassPanel"
     "string type" ["diffuse"]
     "texture reflectance" "glass_panel"
+
+MakeNamedMaterial "Grass"
+    "string type" ["diffuse"]
+    "texture reflectance" "grass_color"
+    "texture displacement" "grass_normal"
 
 MakeNamedMaterial "LogoPanel"
     "string type" ["diffuse"]
